@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Instagram-Tailwind-Template/static/css/main.ee74e619.chunk.css",
-    "main.js": "/Instagram-Tailwind-Template/static/js/main.7bdb6c52.chunk.js",
-    "main.js.map": "/Instagram-Tailwind-Template/static/js/main.7bdb6c52.chunk.js.map",
+    "main.js": "/Instagram-Tailwind-Template/static/js/main.800ad99b.chunk.js",
+    "main.js.map": "/Instagram-Tailwind-Template/static/js/main.800ad99b.chunk.js.map",
     "runtime-main.js": "/Instagram-Tailwind-Template/static/js/runtime-main.de7c1582.js",
     "runtime-main.js.map": "/Instagram-Tailwind-Template/static/js/runtime-main.de7c1582.js.map",
     "static/js/2.4e510d96.chunk.js": "/Instagram-Tailwind-Template/static/js/2.4e510d96.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.de7c1582.js",
     "static/js/2.4e510d96.chunk.js",
     "static/css/main.ee74e619.chunk.css",
-    "static/js/main.7bdb6c52.chunk.js"
+    "static/js/main.800ad99b.chunk.js"
   ]
 }
