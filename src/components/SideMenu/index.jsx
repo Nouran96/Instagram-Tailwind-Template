@@ -1,23 +1,21 @@
 import React from "react";
 import SuggestCard from "../SuggestCard";
-import Avatar from "../../assets/avatar.jpg";
-import Avatar2 from "../../assets/avatar2.png";
 
 const suggestions = [
   {
     userName: "tomcruz",
     followedBy: ["chris.pratt", "chris.hemsworth", "chris.evans"],
-    avatar: Avatar2,
+    avatar: process.env.PUBLIC_URL + "/assets/avatar2.png",
   },
   {
     userName: "chris.pratt",
     followedBy: ["chris.hemsworth", "tomcruz"],
-    avatar: Avatar2,
+    avatar: process.env.PUBLIC_URL + "/assets/avatar2.png",
   },
   {
     userName: "chris.evans",
     followedBy: ["chris.pratt", "chris.hemsworth"],
-    avatar: Avatar2,
+    avatar: process.env.PUBLIC_URL + "/assets/avatar2.png",
   },
 ];
 
@@ -29,7 +27,7 @@ const SideMenu = () => {
         <div className="flex space-x-4 items-center">
           <div className="flex-shrink-0">
             <img
-              src={Avatar}
+              src={process.env.PUBLIC_URL + "/assets/avatar.jpg"}
               alt="Logged in user image"
               className="w-16 h-16 rounded-full"
             />

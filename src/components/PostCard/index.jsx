@@ -1,10 +1,4 @@
 import React, { useState } from "react";
-import MoreOptionsIcon from "../../assets/moreOptions.svg";
-import EmojiIcon from "../../assets/emoji.svg";
-import LikesIcon from "../../assets/likes.svg";
-import CommentIcon from "../../assets/comment.svg";
-import BookmarkIcon from "../../assets/bookmark.svg";
-import InboxIcon from "../../assets/inbox.svg";
 
 const PostCard = ({ post }) => {
   const [comment, setComment] = useState("");
@@ -26,7 +20,10 @@ const PostCard = ({ post }) => {
         </div>
 
         <a href="#">
-          <img src={MoreOptionsIcon} alt="More options" />
+          <img
+            src={process.env.PUBLIC_URL + "/assets/moreOptions.svg"}
+            alt="More options"
+          />
         </a>
       </div>
 
@@ -40,20 +37,23 @@ const PostCard = ({ post }) => {
         <div className="flex justify-between">
           <div className="space-x-4 flex items-center">
             <a href="#">
-              <img src={LikesIcon} alt="" />
+              <img src={process.env.PUBLIC_URL + "/assets/likes.svg"} alt="" />
             </a>
 
             <a href="#">
-              <img src={CommentIcon} alt="" />
+              <img
+                src={process.env.PUBLIC_URL + "/assets/comment.svg"}
+                alt=""
+              />
             </a>
 
             <a href="#">
-              <img src={InboxIcon} alt="" />
+              <img src={process.env.PUBLIC_URL + "/assets/inbox.svg"} alt="" />
             </a>
           </div>
 
           <a href="#">
-            <img src={BookmarkIcon} alt="" />
+            <img src={process.env.PUBLIC_URL + "/assets/bookmark.svg"} alt="" />
           </a>
         </div>
 
@@ -81,7 +81,7 @@ const PostCard = ({ post }) => {
         <div className="flex space-x-4 flex-grow">
           <div className="flex-shrink-0">
             <a href="#">
-              <img src={EmojiIcon} alt="" />
+              <img src={process.env.PUBLIC_URL + "/assets/emoji.svg"} alt="" />
             </a>
           </div>
 
