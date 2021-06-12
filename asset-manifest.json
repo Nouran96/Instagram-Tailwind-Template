@@ -1,31 +1,20 @@
 {
   "files": {
     "main.css": "/Instagram-Tailwind-Template/static/css/main.ee74e619.chunk.css",
-    "main.js": "/Instagram-Tailwind-Template/static/js/main.c4b0c89a.chunk.js",
-    "main.js.map": "/Instagram-Tailwind-Template/static/js/main.c4b0c89a.chunk.js.map",
+    "main.js": "/Instagram-Tailwind-Template/static/js/main.7bdb6c52.chunk.js",
+    "main.js.map": "/Instagram-Tailwind-Template/static/js/main.7bdb6c52.chunk.js.map",
     "runtime-main.js": "/Instagram-Tailwind-Template/static/js/runtime-main.de7c1582.js",
     "runtime-main.js.map": "/Instagram-Tailwind-Template/static/js/runtime-main.de7c1582.js.map",
     "static/js/2.4e510d96.chunk.js": "/Instagram-Tailwind-Template/static/js/2.4e510d96.chunk.js",
     "static/js/2.4e510d96.chunk.js.map": "/Instagram-Tailwind-Template/static/js/2.4e510d96.chunk.js.map",
     "index.html": "/Instagram-Tailwind-Template/index.html",
     "static/css/main.ee74e619.chunk.css.map": "/Instagram-Tailwind-Template/static/css/main.ee74e619.chunk.css.map",
-    "static/js/2.4e510d96.chunk.js.LICENSE.txt": "/Instagram-Tailwind-Template/static/js/2.4e510d96.chunk.js.LICENSE.txt",
-    "static/media/avatar.147b3a49.jpg": "/Instagram-Tailwind-Template/static/media/avatar.147b3a49.jpg",
-    "static/media/bookmark.ba0a09aa.svg": "/Instagram-Tailwind-Template/static/media/bookmark.ba0a09aa.svg",
-    "static/media/comment.2bd2b06e.svg": "/Instagram-Tailwind-Template/static/media/comment.2bd2b06e.svg",
-    "static/media/emoji.1d8eb036.svg": "/Instagram-Tailwind-Template/static/media/emoji.1d8eb036.svg",
-    "static/media/explore.456e3f8b.svg": "/Instagram-Tailwind-Template/static/media/explore.456e3f8b.svg",
-    "static/media/home.6fcf2b0a.svg": "/Instagram-Tailwind-Template/static/media/home.6fcf2b0a.svg",
-    "static/media/inbox.77d63cc2.svg": "/Instagram-Tailwind-Template/static/media/inbox.77d63cc2.svg",
-    "static/media/likes.40f9ceda.svg": "/Instagram-Tailwind-Template/static/media/likes.40f9ceda.svg",
-    "static/media/moreOptions.acd14845.svg": "/Instagram-Tailwind-Template/static/media/moreOptions.acd14845.svg",
-    "static/media/uploaded-1.c5842155.jpeg": "/Instagram-Tailwind-Template/static/media/uploaded-1.c5842155.jpeg",
-    "static/media/uploaded-2.edafbcfd.jpg": "/Instagram-Tailwind-Template/static/media/uploaded-2.edafbcfd.jpg"
+    "static/js/2.4e510d96.chunk.js.LICENSE.txt": "/Instagram-Tailwind-Template/static/js/2.4e510d96.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.de7c1582.js",
     "static/js/2.4e510d96.chunk.js",
     "static/css/main.ee74e619.chunk.css",
-    "static/js/main.c4b0c89a.chunk.js"
+    "static/js/main.7bdb6c52.chunk.js"
   ]
 }
