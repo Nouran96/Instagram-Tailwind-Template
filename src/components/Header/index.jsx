@@ -2,10 +2,10 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="fixed shadow-md w-full bg-white">
-      <div className=" lg:container mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 py-4 items-center px-12">
+    <div className="fixed shadow-md w-full bg-white z-10">
+      <div className=" lg:container mx-auto grid grid-cols-3 gap-4 py-4 items-center lg:px-12 px-3">
         <img src="/assets/logo.png" className="w-28" alt="" />
-        <form className="hidden md:block justify-self-center ">
+        <form className="hidden md:block justify-self-center">
           <input
             type="text"
             className="w-52 bg-gray-50 border border-gray-300 rounded-sm text-center p-1 focus:outline-none"
@@ -13,7 +13,7 @@ const Header = () => {
           />
         </form>
 
-        <div className="flex space-x-4 justify-end">
+        <div className="flex space-x-4 justify-end items-center col-span-2 md:col-span-1">
           <a href="#">
             <img src="/assets/home.svg" alt="Home" />
           </a>
@@ -28,6 +28,14 @@ const Header = () => {
 
           <a href="#">
             <img src="/assets/likes.svg" alt="Likes" />
+          </a>
+
+          <a href="#">
+            <img
+              src="/assets/avatar.jpg"
+              alt="Logged in user image"
+              className="w-8 h-8 rounded-full"
+            />
           </a>
         </div>
       </div>

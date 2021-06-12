@@ -4,7 +4,7 @@ const PostCard = ({ post }) => {
   const [comment, setComment] = useState("");
 
   return (
-    <div className="bg-white w-full border border-gray-200 rounded-sm flex flex-col mb-16">
+    <div className="bg-white w-full border border-gray-200 rounded-sm flex flex-col mb-12">
       {/* Header */}
       <div className="flex justify-between py-2 px-4">
         <div className="flex items-center">
@@ -72,22 +72,22 @@ const PostCard = ({ post }) => {
 
       {/* Add a comment */}
       <form className="flex space-x-4 items-center p-4">
-        <a href="#">
-          <img src="/assets/emoji.svg" alt="" />
-        </a>
+        <div className="flex space-x-4 flex-grow">
+          <div className="flex-shrink-0">
+            <a href="#">
+              <img src="/assets/emoji.svg" alt="" />
+            </a>
+          </div>
 
-        <input
-          type="text"
-          placeholder="Add a comment..."
-          className="border-none text-sm focus:outline-none flex-grow"
-          onChange={(e) => setComment(e.target.value)}
-        />
+          <input
+            type="text"
+            placeholder="Add a comment..."
+            className="max-w-3/4 sm:max-w-none border-none text-sm focus:outline-none"
+            onChange={(e) => setComment(e.target.value)}
+          />
+        </div>
 
-        <button
-          type="submit"
-          className="border-none text-blue-500 disabled:text-blue-200 font-semibold text-sm"
-          disabled={!comment}
-        >
+        <button type="submit" className="main-btn" disabled={!comment}>
           Post
         </button>
       </form>
