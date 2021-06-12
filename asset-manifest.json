@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Instagram-Tailwind-Template/static/css/main.ee74e619.chunk.css",
+    "main.js": "/Instagram-Tailwind-Template/static/js/main.14f30ef3.chunk.js",
+    "main.js.map": "/Instagram-Tailwind-Template/static/js/main.14f30ef3.chunk.js.map",
+    "runtime-main.js": "/Instagram-Tailwind-Template/static/js/runtime-main.de7c1582.js",
+    "runtime-main.js.map": "/Instagram-Tailwind-Template/static/js/runtime-main.de7c1582.js.map",
+    "static/js/2.4e510d96.chunk.js": "/Instagram-Tailwind-Template/static/js/2.4e510d96.chunk.js",
+    "static/js/2.4e510d96.chunk.js.map": "/Instagram-Tailwind-Template/static/js/2.4e510d96.chunk.js.map",
+    "index.html": "/Instagram-Tailwind-Template/index.html",
+    "static/css/main.ee74e619.chunk.css.map": "/Instagram-Tailwind-Template/static/css/main.ee74e619.chunk.css.map",
+    "static/js/2.4e510d96.chunk.js.LICENSE.txt": "/Instagram-Tailwind-Template/static/js/2.4e510d96.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de7c1582.js",
+    "static/js/2.4e510d96.chunk.js",
+    "static/css/main.ee74e619.chunk.css",
+    "static/js/main.14f30ef3.chunk.js"
+  ]
+}
