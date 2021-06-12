@@ -1,12 +1,16 @@
 import React from "react";
 import PostCard from "../PostCard";
 import SideMenu from "../SideMenu";
+import UploadedImage1 from "../../assets/uploaded-1.jpeg";
+import ProfilePic1 from "../../assets/profile-1.jpeg";
+import UploadedImage2 from "../../assets/uploaded-2.jpg";
+import ProfilePic2 from "../../assets/profile-2.jpeg";
 
 const posts = [
   {
-    profilePic: "/assets/profile-1.jpeg",
+    profilePic: ProfilePic1,
     userName: "Jane Doe",
-    uploadedPhoto: "/assets/uploaded-1.jpeg",
+    uploadedPhoto: UploadedImage1,
     numOfLikes: 37,
     uploadedTimeText: "40 minutes ago",
     hasStory: true,
@@ -22,9 +26,9 @@ const posts = [
     ],
   },
   {
-    profilePic: "/assets/profile-2.jpeg",
+    profilePic: ProfilePic2,
     userName: "John Doe",
-    uploadedPhoto: "/assets/uploaded-2.jpg",
+    uploadedPhoto: UploadedImage2,
     numOfLikes: 2,
     uploadedTimeText: "1 minute ago",
     hasStory: false,

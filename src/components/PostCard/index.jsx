@@ -1,4 +1,10 @@
 import React, { useState } from "react";
+import MoreOptionsIcon from "../../assets/moreOptions.svg";
+import EmojiIcon from "../../assets/emoji.svg";
+import LikesIcon from "../../assets/likes.svg";
+import CommentIcon from "../../assets/comment.svg";
+import BookmarkIcon from "../../assets/bookmark.svg";
+import InboxIcon from "../../assets/inbox.svg";
 
 const PostCard = ({ post }) => {
   const [comment, setComment] = useState("");
@@ -20,7 +26,7 @@ const PostCard = ({ post }) => {
         </div>
 
         <a href="#">
-          <img src="/assets/moreOptions.svg" alt="More options" />
+          <img src={MoreOptionsIcon} alt="More options" />
         </a>
       </div>
 
@@ -34,20 +40,20 @@ const PostCard = ({ post }) => {
         <div className="flex justify-between">
           <div className="space-x-4 flex items-center">
             <a href="#">
-              <img src="/assets/likes.svg" alt="" />
+              <img src={LikesIcon} alt="" />
             </a>
 
             <a href="#">
-              <img src="/assets/comment.svg" alt="" />
+              <img src={CommentIcon} alt="" />
             </a>
 
             <a href="#">
-              <img src="/assets/inbox.svg" alt="" />
+              <img src={InboxIcon} alt="" />
             </a>
           </div>
 
           <a href="#">
-            <img src="/assets/bookmark.svg" alt="" />
+            <img src={BookmarkIcon} alt="" />
           </a>
         </div>
 
@@ -75,7 +81,7 @@ const PostCard = ({ post }) => {
         <div className="flex space-x-4 flex-grow">
           <div className="flex-shrink-0">
             <a href="#">
-              <img src="/assets/emoji.svg" alt="" />
+              <img src={EmojiIcon} alt="" />
             </a>
           </div>
 
